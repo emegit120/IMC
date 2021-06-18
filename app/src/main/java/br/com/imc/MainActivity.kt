@@ -42,6 +42,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun calcular() {
+
+        limparCalculo()
+
         val peso = etPeso.text.toString().toDouble()
         val altura = etAltura.text.toString().toDouble()
 
@@ -71,6 +74,7 @@ class MainActivity : AppCompatActivity() {
                     R.string.obesidade_grau_iii
                 )
             }
+            novoCalculo()
         }
 
     }
