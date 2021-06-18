@@ -32,7 +32,7 @@
     </style>
 
     <style name="input_form_number" parent="input_form">
-        <item name="android:inputType">number</item>
+        <item name="android:inputType">numberDecimal</item>
     </style>
 
     <style name="button">
